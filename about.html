@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- Coding by CodingFire - youtube.com/codingfire -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Create Stunning Animation Using Barba JS | CodingFire</title>
+</head>
+<body data-barba="wrapper">
+  <!-- Now lets create about.html -->
+  <div class="load-container">
+    <div class="loading-screen"></div>
+  </div>
+
+  <main data-barba="container" data-barba-namespace="about-section">
+    <div class="header">
+      <h1 class="title animate">About Page</h1>
+      <div class="animate button">
+        <a href="./index.html">Go to home</a>
+      </div>
+    </div>
+  </main>
+  
+  <script src="https://unpkg.com/@barba/core"></script>
+  <!-- gsap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+  <!-- jquery - only for animation ( FOR GSAP) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
